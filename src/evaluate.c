@@ -34,7 +34,7 @@
 #define BLOCK_IMPL1 9
 #define BLOCK_IMPL2 10
 
-unsigned int bp;
+unsigned int bp=BLOCK_OPERAND1;
 unsigned int tape[30000];
 unsigned int block_operand1=0;
 unsigned int block_operand2=0;
