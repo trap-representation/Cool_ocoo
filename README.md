@@ -1,7 +1,7 @@
 Cool_ocoo
 ---
 
-This is Cool_ocoo - an implementation of the OCOO esoteric programming language.
+This is Cool_ocoo - an implementation of the [OCOO esoteric programming language](https://esolangs.org/wiki/OCOO).
 
 Check `./src` for the source files. The Cool_ocoo program strictly conforms to the ISO/IEC 9899:2011 (AKA C11) standard. So if you have any C11 implementation, just translate the following C source files: `./src/cool_ocoo.c`, `./src/clean_up_routines.c`, `./src/evaluate.c`, `./src/lexer.c`, `./src/parser.c`, `./src/write_error.c`, and link them.
 
