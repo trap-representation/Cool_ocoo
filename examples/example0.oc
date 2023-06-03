@@ -1,0 +1,22 @@
+This program receives a character from the standard input, and writes the input character back to the standard output, followed by a newline character
+
+;;;;;;;;;++        store the integer 2 in BLOCK_IMPL1
+;+                 store the integer 1 in BLOCK_IMPL2
+
+                   the + operator when applied to BLOCK_IMPL1 and BLOCK_IMPL2 produces implementation-defined results
+                   in this case, when BLOCK_IMPL1 has the value 2 and BLOCK_IMPL2 has the value 1, a character from stdin is read, which is then stored in BLOCK_OPERAND1
+
+                   BLOCK_IMPL1 and BLOCK_IMPL2 are now imlpicitly set to 0
+
+;;;;;;;;;;+        set BLOCK_IMPL1 to 1
+;+                 set BLOCK_IMPL2 to 1
+                   this writes the value stored in BLOCK_OPERAND1 to stdout
+
+                   we'll consider that this implementation defines an environment that uses the usual ASCII codes to represent the characters in its character set
+                   this means that the newline character can be represented by the integer 10
+
+;;;;;+             apply the + operator on BLOCK_ZERO to set BLOCK_OPERAND1 to 0
+;;;;;;;++++++++++  set BLOCK_OPERAND1 to 10
+;;;;;;;;;+         set BLOCK_IMPL1 to 1
+;+                 set BLOCK_IMPL2 to 1
+                   this will write a newline character to stdout
