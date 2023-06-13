@@ -19,8 +19,6 @@
 #ifndef WRITE_ERROR_H
 #define WRITE_ERROR_H
 
-#include "token.h"
-
 extern void write_error(char *err, uintmax_t loc_x, uintmax_t loc_y, char *file_name);
 
 #endif

@@ -8,7 +8,7 @@ Check `./src` for the source files. The Cool_ocoo program strictly conforms to t
 On most platforms, you can pass a source file to Cool_ocoo like so [^1]:
 
 ```
-<path_to_cool_ocoo>  --input <path_to_source_file>
+<path_to_cool_ocoo> --input <path_to_source_file>
 ```
 
 If a flag is passed more than once, the behavior is as if the last instance of that flag overrides all the previous ones, unless it's explicitly documented to behave otherwise. For example, doing

@@ -27,7 +27,6 @@
 #include "clean_up_routines.h"
 
 int main(int argc, char *argv[]){
-  token *tokens;
   unsigned int ret;
   char *infile="a.oc";
   for(int i=1;i<argc;i++){
@@ -73,7 +72,7 @@ int main(int argc, char *argv[]){
       return 1;
     }
   }
-  tokens=lex(infile,&ret);
+  token *tokens=lex(infile,&ret);
   if(ret==1){
     clean_up_tokens(tokens);
     return 1;
